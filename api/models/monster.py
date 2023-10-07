@@ -6,4 +6,4 @@ class Monster(Base):
     __tablename__ = "monsters"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(10))
+    name = Column(String(15))
